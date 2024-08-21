@@ -1,0 +1,41 @@
+@charset "utf-8";
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background-color: rgb(155, 168, 86);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header>h1{
+    font-size: 2em;
+    color: white;
+    padding: 30px;
+}
+section{
+    width: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.331);
+}
+.imagem{
+    border-radius: 50%;
+    width: 300px;
+}
+footer{
+    padding: 30px;
+    color: white;
+}
+.divMensagem{
+    padding: 20px;
+}
+.divImagem{
+    padding-bottom: 20px;
+}
+
